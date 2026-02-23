@@ -57,7 +57,7 @@ def log_to_mlflow(
         if y_test is not None and y_pred is not None:
             try:
                 fig, ax = plt.subplots(figsize=(8, 6))
-                ConfusionMatrixDisplay.from_predictions(y_test, y_pred, ax=ax, xticks_rotation=45)
+                ConfusionMatrixDisplay.from_predictions(y_test, y_pred, ax=ax, xticks_rotation=90)
                 ax.set_title(f"Confusion Matrix - {run_name}")
                 
                 # Log plot directly to the 'plots' directory in artifacts
