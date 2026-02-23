@@ -1,0 +1,10 @@
+artifact_location: file:///d:/ITI/ML1%20Supervised/Project/notebooks/mlruns/823454910689424666/models/m-0869162601284a518fcb908e47c8f45b/artifacts
+creation_timestamp: 1771811900778
+experiment_id: '823454910689424666'
+last_updated_timestamp: 1771811904234
+model_id: m-0869162601284a518fcb908e47c8f45b
+model_type: null
+name: svc
+source_run_id: 74e9b93250e340bbb7f3fcb373ed6071
+status: 2
+status_message: null

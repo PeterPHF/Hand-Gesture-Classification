@@ -1,0 +1,10 @@
+artifact_location: file:///d:/ITI/ML1%20Supervised/Project/notebooks/mlruns/823454910689424666/models/m-1be41e1a25ca4403a61932c25f4f8cc8/artifacts
+creation_timestamp: 1771811848147
+experiment_id: '823454910689424666'
+last_updated_timestamp: 1771811851865
+model_id: m-1be41e1a25ca4403a61932c25f4f8cc8
+model_type: null
+name: xgb
+source_run_id: 2288d1c272ca49a989b57eb5ac63714a
+status: 2
+status_message: null

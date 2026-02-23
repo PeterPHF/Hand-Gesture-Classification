@@ -1,0 +1,10 @@
+artifact_location: file:///d:/ITI/ML1%20Supervised/Project/notebooks/mlruns/823454910689424666/models/m-08eb4731770f496bbf4afb9faec0bbbf/artifacts
+creation_timestamp: 1771811839229
+experiment_id: '823454910689424666'
+last_updated_timestamp: 1771811842872
+model_id: m-08eb4731770f496bbf4afb9faec0bbbf
+model_type: null
+name: random_forest
+source_run_id: b10a35dd3eb94d3892e9c0ad987b5404
+status: 2
+status_message: null

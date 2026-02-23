@@ -1,0 +1,10 @@
+artifact_location: file:///d:/ITI/ML1%20Supervised/Project/notebooks/mlruns/823454910689424666/models/m-b7b0d99aeb4d4c10af37b7413bb2c1bb/artifacts
+creation_timestamp: 1771796431933
+experiment_id: '823454910689424666'
+last_updated_timestamp: 1771796434794
+model_id: m-b7b0d99aeb4d4c10af37b7413bb2c1bb
+model_type: null
+name: logistic_regression
+source_run_id: 550b0c4d676e455a84d2bd07248ab2f8
+status: 2
+status_message: null

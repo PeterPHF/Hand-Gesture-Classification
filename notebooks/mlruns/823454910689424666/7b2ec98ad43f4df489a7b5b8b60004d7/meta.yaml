@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/ITI/ML1%20Supervised/Project/notebooks/mlruns/823454910689424666/7b2ec98ad43f4df489a7b5b8b60004d7/artifacts
+deleted_time: 1771798431609
+end_time: 1771793268939
+entry_point_name: ''
+experiment_id: '823454910689424666'
+lifecycle_stage: deleted
+run_id: 7b2ec98ad43f4df489a7b5b8b60004d7
+run_name: ovr_logistic_cv
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771793265775
+status: 3
+tags: []
+user_id: lenovo

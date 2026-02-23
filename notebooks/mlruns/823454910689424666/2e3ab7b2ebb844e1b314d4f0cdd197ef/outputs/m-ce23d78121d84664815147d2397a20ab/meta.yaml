@@ -1,0 +1,6 @@
+destination_id: m-ce23d78121d84664815147d2397a20ab
+destination_type: MODEL_OUTPUT
+source_id: m-ce23d78121d84664815147d2397a20ab
+source_type: RUN_OUTPUT
+step: 0
+tags: {}

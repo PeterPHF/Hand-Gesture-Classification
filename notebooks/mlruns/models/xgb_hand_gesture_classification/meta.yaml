@@ -1,0 +1,9 @@
+aliases:
+  production: '1'
+creation_timestamp: 1771803483455
+deployment_job_id: null
+deployment_job_state: null
+description: ''
+last_updated_timestamp: 1771803668414
+name: xgb_hand_gesture_classification
+workspace: default

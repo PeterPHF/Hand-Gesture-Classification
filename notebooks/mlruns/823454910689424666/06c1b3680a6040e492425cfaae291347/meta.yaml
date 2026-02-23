@@ -1,0 +1,15 @@
+artifact_uri: file:///d:/ITI/ML1%20Supervised/Project/notebooks/mlruns/823454910689424666/06c1b3680a6040e492425cfaae291347/artifacts
+deleted_time: 1771810862191
+end_time: 1771802179068
+entry_point_name: ''
+experiment_id: '823454910689424666'
+lifecycle_stage: deleted
+run_id: 06c1b3680a6040e492425cfaae291347
+run_name: svc_poly_ovo_d10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771802174727
+status: 3
+tags: []
+user_id: lenovo

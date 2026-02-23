@@ -1,0 +1,10 @@
+artifact_location: file:///d:/ITI/ML1%20Supervised/Project/notebooks/mlruns/823454910689424666/models/m-bcb0ac1a622f4581a7cde87bbc5e1bb3/artifacts
+creation_timestamp: 1771803127750
+experiment_id: '823454910689424666'
+last_updated_timestamp: 1771803131833
+model_id: m-bcb0ac1a622f4581a7cde87bbc5e1bb3
+model_type: null
+name: gridsearch_svc
+source_run_id: 111ea110796d45a7b366c9e55326f36c
+status: 2
+status_message: null
