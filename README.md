@@ -44,10 +44,7 @@ XGBoost was selected as the final model for several reasons:
 
 - **Top performance across metrics**: It clearly outperforms the other evaluated models on accuracy, F1, precision, and recall (see table above).
 - **Handles non-linear decision boundaries**: Hand-gesture features can be highly non-linear; gradient-boosted trees naturally capture these relationships better than linear models.
-- **Robust to feature interactions**: XGBoost can automatically model complex feature interactions without manual feature engineering.
-- **Regularization and robustness**: Built-in L1/L2 regularization and shrinkage help reduce overfitting compared with plain decision trees or un-regularized models.
-- **Interpretability tools**: Feature importance from tree ensembles gives insight into which features drive the predictions.
-- **Efficient training**: The implementation is optimized and scales well to larger datasets and parameter searches.
+
 
 ---
 
