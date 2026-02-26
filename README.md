@@ -11,7 +11,6 @@ Supervised learning project for recognizing hand gestures from landmark-based fe
   - `helpers.py`: shared helper functions for evaluation and visualization.
 - `notebooks/`
   - `hand_gestures_classification.ipynb`: main experimentation notebook where models are trained and evaluated.
-  - `mlruns/`: experiment tracking outputs (created automatically when you track runs).
 - `screenshoots/` – PNG screenshots for documentation/presentation.
 - `README.md` – project overview and usage instructions.
 
