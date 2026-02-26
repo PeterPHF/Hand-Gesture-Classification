@@ -9,7 +9,6 @@ Supervised learning project for recognizing hand gestures from landmark-based fe
 - `src/` – reusable Python modules
   - `preprocessing.py`: data preprocessing utilities (re-centering and normalization of landmarks).
   - `helpers.py`: shared helper functions for evaluation and visualization.
-  - `mlflow_logger.py`: helper for logging runs, metrics, models, and plots.
 - `notebooks/`
   - `hand_gestures_classification.ipynb`: main experimentation notebook where models are trained and evaluated.
   - `mlruns/`: experiment tracking outputs (created automatically when you track runs).
@@ -19,6 +18,7 @@ Supervised learning project for recognizing hand gestures from landmark-based fe
 ---
 
 ## Model Comparison
+
 
 | Run name                      | Model               | Accuracy | F1 Score | Precision | Recall  |
 | ----------------------------- | ------------------- | -------- | -------- | --------- | ------- |
@@ -44,7 +44,6 @@ XGBoost was selected as the final model for several reasons:
 
 - **Top performance across metrics**: It clearly outperforms the other evaluated models on accuracy, F1, precision, and recall (see table above).
 - **Handles non-linear decision boundaries**: Hand-gesture features can be highly non-linear; gradient-boosted trees naturally capture these relationships better than linear models.
-
 
 ---
 
@@ -106,47 +105,9 @@ Then, in the browser:
 
 1. Open `notebooks/hand_gestures_classification.ipynb`.
 2. Run the notebook cells in order:
-   - Data loading and preprocessing (using functions from `src/preprocessing.py`).
-   - Model training and evaluation (SVC, Random Forest, Logistic Regression, XGBoost, etc.).
-   - Computing metrics and confusion matrices (using helpers in `src/helpers.py`).
+  - Data loading and preprocessing (using functions from `src/preprocessing.py`).
+  - Model training and evaluation (SVC, Random Forest, Logistic Regression, XGBoost, etc.).
+  - Computing metrics and confusion matrices (using helpers in `src/helpers.py`).
 
 ---
 
-## MLflow Tracking and UI (Optional)
-
-This project can optionally use **MLflow** for experiment tracking through the helper `log_to_mlflow` function in `src/mlflow_logger.py`. When enabled, each run can log:
-
-- **Parameters**: model hyperparameters and configuration.
-- **Metrics**: accuracy, F1, precision, recall, etc.
-- **Artifacts**: trained model object, confusion-matrix plot, and any extra files.
-- **Metadata**: run name, experiment name, and tags.
-
-As you execute runs with MLflow enabled in the notebook, the `notebooks/mlruns/` directory will be populated automatically.
-
-### How to launch the MLflow UI
-
-1. Make sure MLflow is installed (via `requirements.txt` or manually):
-
-   ```bash
-   pip install mlflow
-   ```
-
-2. From the project root, start the UI pointing to the tracking directory:
-
-   ```bash
-   mlflow ui
-   ```
-
-3. Open your browser at:
-
-   ```text
-   http://localhost:5000
-   ```
-
-There you can:
-
-- Compare all recorded runs (e.g., `xgb_default`, `gridsearch_svc_C30_ovo_gamma2`, etc.).
-- Inspect metrics (accuracy, F1, precision, recall).
-- Download models and view the confusion-matrix plots.
-
-This final section is the only place where MLflow is required; the rest of the workflow can be run without it if you only need local experiments.

@@ -1,9 +1,0 @@
-aliases:
-  production: '1'
-creation_timestamp: 1772058996796
-deployment_job_id: null
-deployment_job_state: null
-description: ''
-last_updated_timestamp: 1772059019912
-name: xbg_hand_gesture_classifier
-workspace: default
